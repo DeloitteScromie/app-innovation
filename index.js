@@ -76,8 +76,8 @@ app.get('/db', function (request, response) {
       else 
        { response.render('pages/db', {results: result.rows} ); }
     }
-  }
-});
+  });
+}
 
 app.get('/salesforce', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
