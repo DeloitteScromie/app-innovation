@@ -12,15 +12,12 @@
   "dependencies": {
     "pg": "6.x",
     "ejs": "2.5.6",
-    "express": "4.15.2"
+    "express": "4.15.2",
     "cool-ascii-faces": "1.3.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started",
-    "express": "4.15.2",
-    "cool-ascii-faces": "1.3.4"
-  
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
   "keywords": [
     "node",
